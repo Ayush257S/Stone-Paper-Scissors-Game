@@ -5,18 +5,25 @@
 }
 
 h1{
-    background-color: #061529;
+    background-color: #081b31;
     color: #fff;
     height: 5rem;
     line-height: 5rem;
 }
 
-.choice:hover{
-    opacity: 0.5;
-}
+
 .choice{
     height: 170px;
     width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #061529;
 }
 
 img{
