@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(255, 213, 151);
+    background-color: rgb(255, 220, 167);
 }
 
 h1{
@@ -13,6 +13,10 @@ h1{
     color: #fff;
     height: 5rem;
     line-height: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%; 
 }
 
 
